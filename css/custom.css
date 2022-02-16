@@ -49,3 +49,8 @@
         padding: 0px 8px;
         text-decoration: underline;
     }
+
+    .hero-slider .hero-slide-item{
+        background-size: cover;
+        background-position: center;
+    }
