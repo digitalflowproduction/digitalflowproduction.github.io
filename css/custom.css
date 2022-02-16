@@ -45,9 +45,10 @@
 
     .copyright a{
         color: gray;
-        font-size: 1em;
-        padding: 0px 8px;
+        line-height: 1.5;
+        padding-top: 12px;
         text-decoration: underline;
+        display: inline-block;
     }
 
     .hero-slider .hero-slide-item{
