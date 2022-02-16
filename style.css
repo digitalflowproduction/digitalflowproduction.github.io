@@ -206,7 +206,14 @@ ol {
 	z-index: 1;
 }
 
-
+.site-btn:after,
+.site-btn:before {
+	position: absolute;
+	content: "";
+	width: 26px;
+	height: 4px;
+	right: -15px;
+}
 
 .site-btn:after {
 	bottom: 8px;
@@ -630,6 +637,7 @@ ol {
 }
 
 .slide-content {
+	max-width: 690px;
 	margin-left: 350px;
 	margin-bottom: 50px;
 	padding-left: 190px;
