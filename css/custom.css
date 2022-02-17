@@ -8,6 +8,7 @@
         color:white;
         float: none;
         display: inline-block;
+        text-transform: uppercase;
     }
 
     .logo-area:hover {
@@ -22,8 +23,22 @@
     }
 
     .slide-content h2, .slide-content h3 {
+        text-transform: uppercase;
         text-shadow: 0px 0px 20px black;
     }
+
+    @media only screen and (max-width: 479px){
+        
+        .slide-content h2 {
+            font-size: 50px;
+        }
+
+        .slide-content h3 {
+            font-size: 30px;
+            line-height: 45px;
+        }
+    }
+
     
     .hero-right-text {
         letter-spacing: 14px;
@@ -54,4 +69,8 @@
     .hero-slider .hero-slide-item{
         background-size: cover;
         background-position: center;
+    }
+
+    .project-content h3 {
+        color: white;
     }
