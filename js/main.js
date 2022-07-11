@@ -57,7 +57,7 @@ $(window).on('load', function() {
         dots: false,
         animateOut: 'fadeOutRight',
     	animateIn: 'fadeInLeft',
-        navText: ['', 'БОЛЬШЕ <i class="fa fa-long-arrow-right"></i>'],
+        navText: ['', 'БІЛЬШЕ <i class="fa fa-long-arrow-right"></i>'],
         smartSpeed: 1200,
         autoHeight: false,
         //autoplay: true,
